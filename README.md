@@ -62,9 +62,35 @@ This project was carried out using the follwing
 * MongoDB
 * Pymongo
 
-### Create environment
+### Create and activate environment
 
-'''conda create -n "env-name" python = 3.6'''
+Create and activate the conda environment using the following commands;
 
+```
+conda create -n "env-name" python=3.6
+```
+
+```
+conda activate env-name
+```
+
+### Install packages used for project
+
+Using the following command;
+
+```
+pip install -r requirements.txt
+```
+
+## Resources
+
+### Documentations
+
+- [Twitter Search API](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/api-reference/get-search-tweets)
+- [Tweepy Doc](http://docs.tweepy.org/en/latest/index.html)
+- [Pymongo Doc](https://pymongo.readthedocs.io/en/stable/)
+
+### Research/ Tutorial Articles
+- [Scraping Tweets With Tweepy Python](https://medium.com/python-in-plain-english/scraping-tweets-with-tweepy-python-59413046e788)
 
 
